@@ -3,37 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Personal Furniture Studio</title>
-    <link rel="stylesheet" href="css/stylee.css">
+    <title>Твой Цех - Your Personal Furniture Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <div class="logo">
-            <img src="image/Logo.jpg" alt="Studio Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services and Prices</a></li>
-                <li><a href="portfolio.html">Projects</a></li>
-                <li><a href="contact.html">Contacts</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Your personal furniture studio</h1>
-                <p>We are a workshop of wooden furniture. We work with bureaus, studios, designers, pickers, and private clients.</p>
-                <button class="cta-button">Request a Quote</button>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="image/Logo.jpg" alt="Твой Цех Logo">
+                    <div class="logo-text">
+                        ТВОЙ ЦЕХ
+                        <span class="logo-subtitle">СТОЛЯРНАЯ МАСТЕРСКАЯ</span>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="services.html">SERVICES AND PRICES</a></li>
+                        <li><a href="portfolio.html">PROJECTS</a></li>
+                        <li><a href="contact.html">CONTACTS</a></li>
+                    </ul>
+                </nav>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                </div>
             </div>
-        </section>
-        <section class="description">
-            <p>We produce wooden products according to individual projects, satisfying the high-quality product expectations of even the most sophisticated customer.</p>
-        </section>
-        <section class="additional-info">
-            <p>We make furniture of any complexity</p>
-        </section>
-    </main>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="image/Wood.jpg" alt="Workshop emblem" class="hero-logo">
+        <h1>Your personal furniture studio</h1>
+        <p>We are a workshop of wooden furniture.<br>
+           We work with bureaus, studios, designers, pickers and private clients.</p>
+        <button class="cta-button">REQUEST A QUOTE</button>
+        <a href="#about" class="scroll-down"><i class="fas fa-chevron-down"></i></a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-divider"></div>
+            <p class="section-text">
+                We produce wooden products according to individual projects, satisfying the high quality product of even the most sophisticated customer.
+            </p>
+            
+            <div class="feature-block">
+                <div class="feature-image">
+                    <img src="woodworker.jpg" alt="Woodworker crafting furniture">
+                </div>
+                <div class="feature-content">
+                    <h2>We make furniture of any complexity</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional sections would go here -->
+
+    <script src="script.js"></script>
 </body>
 </html>
