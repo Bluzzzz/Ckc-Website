@@ -1,78 +1,115 @@
-<!doctype html>
-<div class="contact-form">
-<form id="contactForm">
-<label for="name">Name</label>
-<input id="name" name="name" type="text" required>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | CKC Carpentry</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+<header class="site-header">
+  <div class="container nav-container">
+    <h1 class="logo"><a href="index.html">CKC Carpentry</a></h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-<label for="phone">Phone</label>
-<input id="phone" name="phone" type="text" required>
+<main class="contact-page container">
+  <section class="contact-hero">
+    <h2>Contact Us</h2>
+    <p>Get in touch for custom furniture inquiries, quotations, or project collaborations.</p>
+  </section>
 
+  <section class="contact-section">
+    <div class="contact-grid">
+      <div class="contact-form">
+        <form id="contactForm">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
 
-<label for="project">Project Type</label>
-<select id="project" name="project">
-<option value="Residential">Residential</option>
-<option value="Office">Office</option>
-<option value="Commercial">Commercial</option>
-<option value="School">School / Institution</option>
-</select>
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="text" required>
 
+          <label for="project">Project Type</label>
+          <select id="project" name="project">
+            <option value="Residential">Residential</option>
+            <option value="Office">Office</option>
+            <option value="Commercial">Commercial</option>
+            <option value="School">School / Institution</option>
+          </select>
 
-<label for="message">Message</label>
-<textarea id="message" name="message" rows="5"></textarea>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea>
 
+          <button class="btn primary" type="submit">Send Message</button>
+        </form>
+      </div>
 
-<button class="btn primary" type="submit">Send Message</button>
-</form>
-</div>
-
-
-<div class="contact-info">
-<h3>Contact Details</h3>
-<p>Phone: <a href="tel:+60123456789">+60 12-345 6789</a></p>
-<p>Email: <a href="mailto:ckc@example.com">ckc@example.com</a></p>
-<p>Address: Lot XX, Jalan XX, Selangor, Malaysia</p>
-<p>Business Hours: Mon–Sat, 9am–6pm</p>
-<p>Social: <a href="https://www.facebook.com/profile.php?id=100075501934547" target="_blank">Facebook</a> / <a href="https://www.instagram.com/ckc_woodworks/" target="_blank">Instagram</a></p>
-</div>
-</div>
-</section>
+      <div class="contact-info">
+        <h3>Contact Details</h3>
+        <p><strong>Phone:</strong> <a href="tel:+60123456789">+60 12-345 6789</a></p>
+        <p><strong>Email:</strong> <a href="mailto:ckc@example.com">ckc@example.com</a></p>
+        <p><strong>Address:</strong> Lot XX, Jalan XX, Selangor, Malaysia</p>
+        <p><strong>Business Hours:</strong> Mon–Sat, 9am–6pm</p>
+        <p><strong>Social:</strong>
+          <a href="https://www.facebook.com/profile.php?id=100075501934547" target="_blank">Facebook</a> /
+          <a href="https://www.instagram.com/ckc_woodworks/" target="_blank">Instagram</a>
+        </p>
+      </div>
+    </div>
+  </section>
 </main>
 
-
 <footer class="site-footer">
-<div class="container footer-grid">
-<div class="footer-about">
-<h3>CKC Carpentry</h3>
-<p>Custom furniture and carpentry solutions for residential and commercial clients.</p>
-</div>
-<div class="footer-links">
-<h4>Quick Links</h4>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="services.html">Services</a></li>
-<li><a href="portfolio.html">Portfolio</a></li>
-</ul>
-</div>
-<div class="footer-contact">
-<h4>Contact</h4>
-<p>Phone: <a href="tel:+60123456789">+60 12-345 6789</a></p>
-<p>Email: <a href="mailto:ckc@example.com">ckc@example.com</a></p>
-</div>
-</div>
-<div class="footer-bottom container">
-<p>&copy; <span id="year"></span> CKC Carpentry. All rights reserved.</p>
-</div>
+  <div class="container footer-grid">
+    <div class="footer-about">
+      <h3>CKC Carpentry</h3>
+      <p>Custom furniture and carpentry solutions for residential and commercial clients.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p>Phone: <a href="tel:+60123456789">+60 12-345 6789</a></p>
+      <p>Email: <a href="mailto:ckc@example.com">ckc@example.com</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <p>&copy; <span id="year"></span> CKC Carpentry. All rights reserved.</p>
+  </div>
 </footer>
 
-
 <a class="whatsapp-float" href="https://wa.me/60123456789" target="_blank" aria-label="WhatsApp">
-<span>WhatsApp</span>
+  <span>WhatsApp</span>
 </a>
-
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="js/script.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Simple form handler (no backend, just alert for GitHub Pages)
+  document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    alert("Thank you! Your message has been sent.");
+    this.reset();
+  });
+</script>
 </body>
 </html>

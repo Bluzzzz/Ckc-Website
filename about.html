@@ -1,56 +1,94 @@
-<!doctype html>
-<p>With our in-house factory, we control material selection, production and finishing. Our team includes skilled carpenters, finishers and installers who ensure consistent results.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | CKC Carpentry</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+<header class="site-header">
+  <div class="container nav-container">
+    <h1 class="logo"><a href="index.html">CKC Carpentry</a></h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-<div class="about-grid">
-<div class="about-image"><img src="images/factory1.jpg" alt="Factory"></div>
-<div class="about-image"><img src="images/team1.jpg" alt="Team"></div>
-</div>
+<main class="about-page container">
+  <section class="about-intro">
+    <h2>About CKC Carpentry</h2>
+    <p>With our in-house factory, we control material selection, production, and finishing. Our team includes skilled carpenters, finishers, and installers who ensure consistent results for every project.</p>
+  </section>
 
+  <section class="about-gallery">
+    <div class="about-grid">
+      <div class="about-image">
+        <img src="images/factory1.jpg" alt="Factory">
+      </div>
+      <div class="about-image">
+        <img src="images/team1.jpg" alt="Team">
+      </div>
+    </div>
+  </section>
 
-<h2>Values</h2>
-<ul>
-<li>Quality materials and workmanship</li>
-<li>Clear communication and reliable delivery</li>
-<li>Solutions tailored to each client's needs</li>
-</ul>
-</section>
+  <section class="about-values">
+    <h2>Our Values</h2>
+    <ul>
+      <li>Quality materials and craftsmanship</li>
+      <li>Clear communication and reliable delivery</li>
+      <li>Solutions tailored to each client’s needs</li>
+    </ul>
+  </section>
 </main>
 
-
 <footer class="site-footer">
-<div class="container footer-grid">
-<div class="footer-about">
-<h3>CKC Carpentry</h3>
-<p>Custom furniture and carpentry solutions for residential and commercial clients.</p>
-</div>
-<div class="footer-links">
-<h4>Quick Links</h4>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="services.html">Services</a></li>
-<li><a href="portfolio.html">Portfolio</a></li>
-</ul>
-</div>
-<div class="footer-contact">
-<h4>Contact</h4>
-<p>Phone: <a href="tel:+60123456789">+60 12-345 6789</a></p>
-<p>Email: <a href="mailto:ckc@example.com">ckc@example.com</a></p>
-</div>
-</div>
-<div class="footer-bottom container">
-<p>&copy; <span id="year"></span> CKC Carpentry. All rights reserved.</p>
-</div>
+  <div class="container footer-grid">
+    <div class="footer-about">
+      <h3>CKC Carpentry</h3>
+      <p>Custom furniture and carpentry solutions for residential, commercial, and institutional clients.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p>Phone: <a href="tel:+60123456789">+60 12-345 6789</a></p>
+      <p>Email: <a href="mailto:ckc@example.com">ckc@example.com</a></p>
+    </div>
+  </div>
+
+  <div class="footer-bottom container">
+    <p>&copy; <span id="year"></span> CKC Carpentry. All rights reserved.</p>
+  </div>
 </footer>
 
-
 <a class="whatsapp-float" href="https://wa.me/60123456789" target="_blank" aria-label="WhatsApp">
-<span>WhatsApp</span>
+  <span>WhatsApp</span>
 </a>
-
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="js/script.js"></script>
+<script>
+  // auto update year
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
