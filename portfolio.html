@@ -3,57 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | CKC Carpentry</title>
+  <title>CKC Carpentry | Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/script.js"></script>
-
 </head>
 <body>
+  <!-- Navbar -->
   <header>
     <nav class="navbar">
-      <a href="index.html" class="logo">
-        <img src="image/logo.png" alt="CKC Carpentry Logo">
-      </a>
+      <a href="index.html" class="logo">CKC Carpentry</a>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="page-header">
-    <h1>Our Works</h1>
-    <p>Take a look at some of our recent projects across homes, offices, and commercial spaces.</p>
-  </section>
+  <!-- Portfolio Wrapper -->
+  <main id="portfolio-content" class="portfolio-wrapper">
+    <section class="portfolio-page">
+      <img src="image/project1.jpg" alt="Custom Kitchen Cabinet">
+      <h2>Modern Kitchen Cabinet</h2>
+      <p>Customized kitchen set with solid plywood base and soft-closing drawers. Designed for space efficiency and a clean, minimalistic look.</p>
+      <span class="page-number">Page 1</span>
+    </section>
 
-  <section class="portfolio-grid">
-    <div class="portfolio-item">
-      <img src="image/project1.jpg" alt="Custom Kitchen Cabinet - Shah Alam">
-      <h3>Custom Kitchen Cabinet</h3>
-      <p>Shah Alam</p>
-    </div>
-    <div class="portfolio-item">
-      <img src="image/project2.jpg" alt="Office Reception Counter - Subang Jaya">
-      <h3>Office Reception Counter</h3>
-      <p>Subang Jaya</p>
-    </div>
-    <div class="portfolio-item">
-      <img src="image/project3.jpg" alt="Built-in Wardrobe - Setia Alam">
-      <h3>Built-in Wardrobe</h3>
-      <p>Setia Alam</p>
-    </div>
-    <div class="portfolio-item">
-      <img src="image/project4.jpg" alt="Retail Display Shelves - Kuala Lumpur">
-      <h3>Retail Display Shelves</h3>
-      <p>Kuala Lumpur</p>
-    </div>
-  </section>
+    <section class="portfolio-page">
+      <img src="image/project2.jpg" alt="Office Partition">
+      <h2>Office Partition & Storage</h2>
+      <p>Built-in office partition and cabinetry using melamine finish. Perfect for small spaces requiring both privacy and organization.</p>
+      <span class="page-number">Page 2</span>
+    </section>
 
+    <section class="portfolio-page">
+      <img src="image/project3.jpg" alt="Bedroom Wardrobe">
+      <h2>Bedroom Wardrobe</h2>
+      <p>Custom sliding-door wardrobe with mirror finish and LED lighting, maximizing space in modern apartments.</p>
+      <span class="page-number">Page 3</span>
+    </section>
+
+    <section class="portfolio-page">
+      <img src="image/project4.jpg" alt="TV Console">
+      <h2>Living Room TV Console</h2>
+      <p>Minimalist TV cabinet made from oak veneer with hidden cable compartments and a natural matte finish.</p>
+      <span class="page-number">Page 4</span>
+    </section>
+  </main>
+
+  <!-- Download Button -->
+  <div class="download-btn">
+    <button id="downloadPDF">Download as PDF</button>
+  </div>
+
+  <!-- Footer -->
   <footer>
     <p>© 2025 CKC Carpentry. All rights reserved.</p>
   </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
